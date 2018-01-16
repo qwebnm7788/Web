@@ -1,11 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    list-style-type: none;
 }
 
 body {
-    background-color: #333;
+    background-color: rgb(52, 34, 36);
 }
 .quoteBox {
     border-radius: 5px;
@@ -20,6 +19,7 @@ body {
     text-align: center;
     font-weight: 500;
     font-size: 1.75em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .quoteText i {
@@ -31,6 +31,7 @@ body {
     text-align: right;
     padding-top: 20px;
     font-size: 1em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .button {
@@ -39,22 +40,27 @@ body {
     border-radius: 5px;
     font-size: 0.85em;
     padding: 8px 18px 6px 18px;
+    background-color: rgb(52, 34, 36);
+    color: white;
+    cursor: pointer;
 }
 
+.button::hover {
+    opacity: 0.9;
+}
 .buttons {
     display: block;
-    padding: 0;
     margin-top: 30px;
+    width: 450px;
 }
 
 #newQuote {
     float: right;
 }
 
-a {
-    height: 30px;
+.SNS {
+    padding: 0;
+    height: 38px;
     width: 40px;
-    text-align: center;
     font-size: 1.2em;
-    float: left;
 }
